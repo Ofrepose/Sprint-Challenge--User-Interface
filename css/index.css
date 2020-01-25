@@ -296,3 +296,60 @@ img.headerImg{
     margin: auto;
     padding-bottom: 30px;
 }
+
+
+@media all and (max-width: 800px){
+    nav.topNav{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+
+    .top-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-content .text-container{
+        min-width: 100%;
+        padding: 20px;
+    }
+
+    .bottom-content{
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container{
+        min-width: 100%;
+        padding: 20px;
+    }
+
+    footer nav{
+        width: 100%;
+    }
+
+    .about-pageContainer{
+        width: 100%;
+    }
+
+    .aboutContentBox{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .imgCon{
+        margin: auto;
+    }
+
+    .contentTitle{
+        width: 100%;
+
+    }
+
+    .buttonItem{
+        margin: 15px auto;
+    }
+
+    
+}
